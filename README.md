@@ -9,6 +9,8 @@ Interactive project website for the NeurIPS paper **Bayesian Optimization with F
 
 The HTML, CSS, and JavaScript sources are in `site/`. The website uses local math-rendering assets and does not need a package installation or build service. Open `site/index.html` locally, or serve `site/` with a static web server.
 
-Pushes to `main` deploy only `site/` to GitHub Pages through `.github/workflows/pages.yml`. The workflow checks that unpublished workspace and research directories are absent. This repository contains only the public website export, not the research repository or its history.
+Pushes to `NeurIPS_publish` deploy only `site/` to GitHub Pages through `.github/workflows/pages.yml`. The workflow checks that unpublished workspace and research directories are absent. This repository contains only the public website export, not the research repository or its history.
+
+Live website: https://sam4896.github.io/bo_information_geometry_page/
 
 The Further ideas card is a non-clickable placeholder. KaTeX is distributed under the MIT license; its license is included in `site/katex/LICENSE`.
