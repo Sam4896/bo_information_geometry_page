@@ -26,5 +26,5 @@
     }
     section.querySelector('.result-summary').textContent = 'FITR has a lower mean on ' + ibnnResults.filter(row => row.improvement > 0).length + ' of ' + ibnnResults.length + ' tasks. This comparison tests transfer to a kernel without coordinate lengthscales; it is not a TuRBO comparison.';
   }
-  window.PaperResults = { render };
+  window.PaperResults = { render, ibnnResults };
 })();

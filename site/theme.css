@@ -1,0 +1,25 @@
+/* Shared visual settings for the project pages. Edit sizes and colors here. */
+:root{
+  --body-text-size:17px;--reading-width:930px;--resource-link-size:18px;--resource-icon-size:22px;
+  --paper:#f6f5f0;--ink:#1d2730;--muted:#54606a;--line:#d6d9d2;
+  --indigo:#3f5694;--violet:#7b5aa0;--orange:#c85a36;--teal:#117870;
+  --magenta:#b23a9b;--trace-blue:#4d6fb3;
+  --white:#ffffff;--ig-bg:#eef4f2;--ig-border:#adc8c2;
+  --serif:KaTeX_Main,Georgia,'Times New Roman',serif;
+  --sans:-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',system-ui,sans-serif;
+  --ease-apple:cubic-bezier(0.16, 1, 0.3, 1);
+  --plot-title-size:18px;--plot-subtitle-size:14px;--plot-legend-size:14px;
+  --plot-text-size:14px;--plot-axis-label-size:calc(var(--plot-text-size) + 6pt);--plot-footnote-size:14px;
+  --supporting-plot-height:230px;--result-plot-height:300px;
+  --high-dimensional-plot-height:180px;
+  --result-table-text-size:14px;
+  --mobile-plot-title-size:15px;--mobile-paired-plot-title-size:clamp(11px,3.2vw,15px);--mobile-panel-letter-size:clamp(12px,3.6vw,17px);
+  --concept-copy-size:22px;--concept-copy-leading:1.55;--concept-label-size:12px;
+  --page-title-size:clamp(28px,2.8vw,38px);--page-title-leading:1.18;
+  --logei-color-min:-50;--input-contour-display-scale:10;
+  --field-truth-low:230,235,245;--field-truth-high:200,90,54;
+  --field-mean-low:232,237,247;--field-mean-high:63,86,148;
+  --field-variance-low:250,248,252;--field-variance-high:123,90,160;
+  --field-acquisition-low:250,244,248;--field-acquisition-high:178,58,155;
+  --plot-line-width:3.2;--legend-line-length:20px;--legend-line-width:3.85px;--legend-dot-size:10px;
+}

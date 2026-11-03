@@ -47,13 +47,13 @@
   // Existing paper macros, shared by inline notation and the complete proof.
   const macros = {
     '\\inpvars': 'x', '\\inpvarsset': '\\mathcal{X}', '\\obsouts': 'y',
-    '\\numobservation': 'n',
+    '\\numobservation': 'n', '\\Numobservation': 'N',
     '\\observeddata': '\\mathcal{D}', '\\boiteration': 't',
     '\\processfunction': 'f', '\\distmean': '\\mu', '\\distcov': '\\Sigma',
     '\\acqf': '\\alpha', '\\acqfdistfunctional': '\\bar{\\alpha}',
     '\\acqfparams': '\\xi', '\\surrogatemodel': '\\mathcal{M}',
     '\\probability': 'p', '\\noise': '\\varepsilon', '\\noisevar': '\\sigma_{\\varepsilon}^2',
-    '\\lengthscale': '\\ell', '\\signalvar': '\\sigma_f^2',
+    '\\lengthscale': '\\ell', '\\lengthscaleexponent': 'p', '\\signalvar': '\\sigma_f^2',
     '\\incumbentobs': '\\star', '\\probabilitypdf': '\\omega', '\\probabilitycdf': '\\Omega',
     '\\ucbexploration': '\\kappa_{\\mathrm{UCB}}', '\\pitemperature': '\\tau',
     '\\manifoldparameters': '\\theta', '\\manifoldmap': '\\varphi',
