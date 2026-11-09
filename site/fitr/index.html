@@ -1,12 +1,21 @@
 <!doctype html>
 <html lang="en"><head>
   <base href="../">
+<!-- Google Tag Manager -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  // Queue the container startup event before its asynchronous script loads.
+  window.dataLayer.push({'gtm.start': Date.now(), event: 'gtm.js'});
+</script>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-WS3VNL6H"></script>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Bayesian optimization through predictive geometry: acquisition gradient bounds, a unified view of high-dimensional BO, and Fisher-information trust regions. NeurIPS 2026.">
 <title>Bayesian Optimization with Fisher Information Geometry</title>
 <link rel="stylesheet" href="katex/katex.min.css"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="scroll.css">
 <script defer src="katex/katex.min.js"></script><script defer src="visual-config.js"></script><script defer src="model.js"></script><script defer src="notation.js"></script><script defer src="results.js"></script><script defer src="scroll-content.js"></script><script defer src="scroll.js"></script>
 </head><body data-experience="fitr-scroll">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WS3VNL6H"
+height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>
 <header class="scroll-header"><a class="scroll-brand" href="#top">Bayesian Optimization with Fisher Information Geometry</a><nav aria-label="Resources"><a class="resource-link" href="https://arxiv.org/pdf/2609.31107" target="_blank" rel="noopener" aria-label="Read the paper (opens in a new tab)"><svg class="resource-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H5v18h14V8zM14 3v5h5M8 12h8M8 16h8"/></svg><span>Paper</span><span class="external-mark" aria-hidden="true">&nearr;</span></a><a class="resource-link" href="https://www.linkedin.com/in/saksham4k/" target="_blank" rel="noopener noreferrer" aria-label="Saksham Kiroriwal on LinkedIn (opens in a new tab)"><span class="linkedin-badge" aria-hidden="true">in</span><span>LinkedIn</span><span class="external-mark" aria-hidden="true">&nearr;</span></a><a class="resource-link" href="#bibtex" aria-label="Jump to the BibTeX citation"><svg class="resource-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H6v6l-2 3 2 3v6h2M16 3h2v6l2 3-2 3v6h-2"/></svg><span>BibTeX</span></a></nav></header>
 <main id="top" class="scroll-main">
 <section class="paper-hero"><p class="eyebrow">NeurIPS 2026</p><h1>Bayesian Optimization with Fisher Information Geometry</h1><p class="paper-subtitle">Gradient Bounds and Trust-Region Methods</p><p class="paper-authors">Saksham Kiroriwal &nbsp;&middot;&nbsp; Julius Pfrommer &nbsp;&middot;&nbsp; J&uuml;rgen Beyerer</p><p class="paper-affiliations">Fraunhofer IOSB &nbsp;&middot;&nbsp; Karlsruhe Institute of Technology</p><div class="hero-links"><a href="#geometry">Explore the idea &darr;</a></div><p class="hero-insight">The surrogate maps the input space to the statistical manifold of predictive distributions. The acquisition function depends on the predictive parameters rather than the input directly.</p></section>
